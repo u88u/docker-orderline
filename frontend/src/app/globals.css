@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: #0b161b;
+  --color-ink-900: #112027;
+  --color-ink-800: #1a2d36;
+  --color-ink-700: #28424d;
+  --color-ink-500: #5f7882;
+  --color-ink-400: #8fa5ad;
+  --color-ink-100: #e8f0f1;
+
+  --color-mint-950: #0f2e24;
+  --color-mint-800: #1f5b44;
+  --color-mint-300: #7be0b4;
+
+  --color-saffron-950: #33270c;
+  --color-saffron-800: #6b5217;
+  --color-saffron-300: #f4c96b;
+}
+
+@theme inline {
+  --font-sans: var(--font-plex), system-ui, sans-serif;
+}
